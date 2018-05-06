@@ -1,0 +1,41 @@
+.gradient-green{
+    background: linear-gradient(135deg, rgba(0, 255, 34, .5)0%, #111111 65%);
+}
+
+.gradient-orange{
+    background: linear-gradient(135deg, rgba(241, 110, 22, 0.5)0%, #111111 65%);
+}
+
+.gradient-yellow{
+    background: linear-gradient(135deg, rgba(247, 222, 5, 0.8)0%, #111111 65%);
+}
+
+.gradient-red{
+    background: linear-gradient(135deg, rgba(252, 5, 5, 0.5)0%, #111111 65%);
+}
+
+.gradient-blue{
+    background: linear-gradient(135deg, rgba(0, 60, 255, 0.5)0%, #111111 65%);
+}
+
+.card{
+    margin-top: 15px;
+    border-color: #476add;
+}
+
+.card-img-top{
+    max-height: 150px;
+}
+
+.btn-primary{
+    background-color: #476add;
+    border-color: #476add;
+}
+.background--black{
+    background: #111111;
+}
+
+.card-text{
+    font-size: 15px;
+    line-height: 15px;
+}
