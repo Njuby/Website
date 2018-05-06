@@ -39,3 +39,17 @@
     font-size: 15px;
     line-height: 15px;
 }
+
+
+/* video responsive */
+@media (max-width: 768px) {
+    .vid{
+        height: 200px;
+    }
+}
+
+@media (min-width: 768px) {
+    .vid{
+        height: 400px;
+    }
+}
