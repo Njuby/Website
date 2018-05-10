@@ -1,3 +1,4 @@
+/* Header colors */
 .gradient-green{
     background: linear-gradient(135deg, rgba(0, 255, 34, .5)0%, #111111 65%);
 }
@@ -18,13 +19,24 @@
     background: linear-gradient(135deg, rgba(0, 60, 255, 0.5)0%, #111111 65%);
 }
 
+/* Game Paginas */
 .card{
     margin-top: 15px;
+    margin-bottom: 15px;
     border-color: #476add;
+}
+
+.card-bordercolor--green{
+    border-color: #0d7530;
 }
 
 .card-img-top{
     max-height: 150px;
+}
+
+.card-text{
+    font-size: 15px;
+    line-height: 15px;
 }
 
 .btn-primary{
@@ -35,16 +47,17 @@
     background: #111111;
 }
 
-.card-text{
-    font-size: 15px;
-    line-height: 15px;
-}
-
-
-/* video responsive */
+/* Mobile */
 @media (max-width: 768px) {
+    /* Vid size */
     .vid{
         height: 200px;
+    }
+
+    /* Distance to cards */
+    .padding--6{
+        padding-left: 6vw;
+        padding-right: 6vw;
     }
 }
 
@@ -52,4 +65,11 @@
     .vid{
         height: 400px;
     }
+
 }
+
+.hr--white{
+    background-color: rgb(179, 179, 179);
+}
+
+
