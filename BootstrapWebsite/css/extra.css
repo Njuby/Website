@@ -24,6 +24,15 @@
     margin-top: 15px;
     margin-bottom: 15px;
     border-color: #476add;
+    border-width: 2px;
+}
+
+.no--margin{
+    margin: 0px;
+}
+
+.no--margin-top{
+    margin-top: 0px;
 }
 
 .card-bordercolor--green{
